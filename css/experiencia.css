@@ -14,6 +14,33 @@
   color: #141414;
 }
 
+.experiencia a {
+  text-decoration: none;
+  color: #ff8e00;
+}
+
+.empresa1 {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr;
+  border-radius: 4px;
+  gap: 15px 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.empresa1::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: #ff8e00;
+  position: absolute;
+  top: 18px;
+  left: -3px;
+}
+
 .empresa {
   display: grid;
   position: relative;
@@ -73,6 +100,14 @@
   color: #525252;
   padding: 6px 10px;
 }
+
+.meformei {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #bdbdbd;
+}
+
 
 @media (max-width: 900px) {
   .experiencia {

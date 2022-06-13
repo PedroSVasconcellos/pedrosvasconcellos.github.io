@@ -34,6 +34,12 @@
   color: #525252;
 }
 
+.emtreinamento {
+  display: block;
+  color: #636363;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 900px) {
 
   .introducao {
