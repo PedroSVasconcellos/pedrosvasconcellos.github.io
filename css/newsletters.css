@@ -1,0 +1,21 @@
+.news img {
+margin-bottom: 200px;
+}
+
+@media (max-width:1015px) {
+  .subtitulo2 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width:700px) {
+  .subtitulo2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:660px) {
+  .subtitulo2 {
+    font-size: 2rem;
+  }
+}

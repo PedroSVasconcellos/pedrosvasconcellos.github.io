@@ -144,3 +144,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 540px) {
+  .meformei {
+    max-width: 25ch;
+    }
+}

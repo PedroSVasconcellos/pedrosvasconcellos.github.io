@@ -8,7 +8,7 @@
 }
 
 .cordev {
-  color: rgb(97, 97, 97);
+  color: #a3a3a3;
 }
 
 .introducao h1 {
@@ -30,14 +30,15 @@
 }
 
 .introducao p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #525252;
 }
 
 .emtreinamento {
   display: block;
-  color: #636363;
+  color: #a3a3a3;
   margin-bottom: 50px;
+  font-weight: 100;
 }
 
 @media (max-width: 900px) {

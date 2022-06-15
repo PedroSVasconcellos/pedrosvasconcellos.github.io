@@ -23,6 +23,20 @@
   font-size: 1.5rem;
 }
 
+.contato a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contato li + li {
+  margin-top: 10px;
+  color: #ff8e00;
+}
+
+.contato li {
+  color: #ff8e00;
+}
+
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr;

@@ -1,0 +1,55 @@
+.portfolio h2 {
+  color: #e0e0e0;
+}
+
+.btn-portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ui-design {
+  background-image: url(/img/ui-design-pb.jpg);
+  font-size: 1.5rem;
+  border-left: 4px solid #ff8e00;
+  padding: 50px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ui-design:hover {
+  background-image: url(/img/ui-design-cor.jpg);
+  cursor: pointer;
+  border-left: 4px solid #ffffff;
+  text-decoration: underline #ff8e00 3px;
+}
+
+.newsletters {
+  background-image: url(/img/newsletters-pb.jpg);
+  font-size: 1.5rem;
+  border-left: 4px solid #ff8e00;
+  padding: 50px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.newsletters:hover {
+  background-image: url(/img/newsletters-cor.jpg);
+  cursor: pointer;
+  border-left: 4px solid #ffffff;
+  text-decoration: underline #ff8e00 3px;
+}
+
+@media (max-width: 900px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .portfolio h2 {
+    color: #525252;
+  }
+
+}
+
+
